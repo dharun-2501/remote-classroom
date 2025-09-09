@@ -1,0 +1,101 @@
+.login{
+    width: 400px;
+    height: 400px;
+    background-color:rgba(0, 0, 0, 0.5);
+    margin-left: 550px;
+    margin-top: 150px;
+    border-radius: 15px;
+}
+
+body{
+    background-image: url("cropped-bgimage.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+
+}
+
+#name{
+    padding: 10px;
+    margin-left: 110px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2.5px solid black;
+
+}
+
+#pass{
+    padding: 10px;
+    margin-left: 110px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2.5px solid black;
+}
+
+#address{
+    padding: 10px;
+    margin-left: 110px;
+    margin-top: 30px;
+    width: 190px;
+    border-radius: 10px;
+    border: 2.5px solid black;
+}
+
+
+
+#button{
+    margin-left: 150px;
+    margin-top: 60px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color:#1e90ff;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+
+
+}
+
+input{
+
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: black;
+    
+
+}
+
+
+h2{
+    position:relative;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 170px;
+}
+
+h2::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background-color:rgb(48, 48, 118);
+
+
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+}
+
+h2:hover::after{
+    bottom: -4px;
+    transform: scaleX(1);
+
+}
